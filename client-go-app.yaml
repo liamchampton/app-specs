@@ -4,4 +4,6 @@ services:
     git:
       repo_clone_url: https://github.com/liamchampton/microservice-go-demo.git
       branch: do-deploy
+    build_command: go build -o goapp
+    run_command: ./goapp
     instance_count: 1

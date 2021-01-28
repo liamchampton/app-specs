@@ -1,0 +1,7 @@
+name: client-go-app
+services:
+  - name: go-app
+    git:
+      repo_clone_url: https://github.com/liamchampton/microservice-go-demo.git
+      branch: do-deploy
+    instance_count: 1
